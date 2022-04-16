@@ -1,0 +1,259 @@
+{
+    "structure_info":
+    {
+	"region_name":"M1-Th",
+	"region_z_extent":[2000, 2400],
+	"layer_thickness":[300, 100]
+    },
+    
+    "neuron_info":
+    {
+	"M1-Th":	
+	{
+	    "TN":
+	    {
+		"HTC":
+		{
+		    "rank_neuron_type":0,
+		    "EorI":"E",
+		    "membrane_time_constant":20,
+		    "spike_threshold":-20,
+		    "reset_value":-70,
+		    "E_rest":-70,
+		    "I_ex":-0.1,
+		    "absolute_refractory_period":1,
+		    "n_cells_per_mm2": 1000,
+		    "position_function_type":"grid_square"
+		},
+		"LTC":
+		{
+		    "rank_neuron_type":1,
+		    "EorI":"E",
+		    "membrane_time_constant":20,
+		    "spike_threshold":-20,
+		    "reset_value":-70,
+		    "E_rest":-70,
+		    "I_ex":0.5,
+		    "absolute_refractory_period":1,
+		    "n_cells_per_mm2": 1000,
+		    "position_function_type":"grid_square"
+		},
+		"IN":
+		{
+		    "rank_neuron_type":2,
+		    "EorI":"I",
+		    "membrane_time_constant":10,
+		    "spike_threshold":-50,
+		    "reset_value":-70,
+		    "E_rest":-70,
+		    "I_ex":15,
+		    "absolute_refractory_period":1,
+		    "n_cells_per_mm2": 1000,
+		    "position_function_type":"grid_square"
+		}
+	    },
+	    "TRN":
+	    {
+		"RE":
+		{
+		    "rank_neuron_type":3,
+		    "EorI":"I",
+		    "membrane_time_constant":10,
+		    "spike_threshold":-20,
+		    "reset_value":-70,
+		    "E_rest":-70,
+		    "I_ex":0.8,
+		    "absolute_refractory_period":1,
+		    "n_cells_per_mm2": 1000,
+		    "position_function_type":"grid_square"
+		}
+	    }
+	}
+    },
+    
+    "intra_regional_connection":
+    {
+	"connection_mu_matrix":
+	[
+	    [ 0, 0, 0, 1],
+	    [ 0, 0, 1, 1],
+	    [ 1, 0, 0, 0],
+	    [ 1, 1, 0, 1]
+	],
+	
+        "connection_sigma_matrix":
+	[
+	    [ 200, 200, 200, 200],
+	    [ 200, 200, 200, 200],
+	    [ 200, 200, 200, 200],
+	    [ 200, 200, 200, 200]
+	],
+	
+        "connection_weight_matrix":
+	[
+	    [ 0,      0,       0,       -0.0025 ],
+	    [ 0,      0,      -0.01, -0.0025 ],
+	    [ 0.25,  0,       0,       0 ],
+	    [ 0.005,  0.005,  0,       -0.005 ]
+	],
+	"connection_type_matrix":
+	[
+	    [ "HG", "HG","HG", "HG" ],
+	    [ "HG", "HG","HG", "HG" ],
+	    [ "HG", "HG","HG", "HG" ],
+	    [ "HG", "HG","HG", "HG" ]
+	],
+        "connection_delay_matrix":
+	[
+	    [ 1, 1, 1, 1],
+	    [ 1, 1, 1, 1],
+	    [ 1, 1, 1, 1],
+	    [ 1, 1, 1, 1]
+	]
+    },
+    
+    "inter_regional_connection":
+    {
+	"bundle0":
+	{
+	    "0":
+	    {
+		"pre":
+		{
+		    "region":"M1",
+		    "subregion":"L5A",
+		    "neuron_type":"CT"
+		},
+		"post":
+		{
+		    "region":"M1-Th",
+		    "subregion":"TN",
+		    "neuron_type":"LTC"
+		},
+		"mu":0.5,
+		"sigma":100,
+		"weight":0.0001,
+		"delay": 10,
+		"shift": [0, 0, -2000],
+		"scale": 1,
+		"rotate": 0
+	    },
+	    
+	    "1":
+	    {
+		"pre":
+		{
+		    "region":"M1",
+		    "subregion":"L5A",
+		    "neuron_type":"CT"
+		},
+		"post":
+		{
+		    "region":"M1-Th",
+		    "subregion":"TN",
+		    "neuron_type":"HTC"
+		},
+		
+		"mu":0.5,
+		"sigma":100,
+		"weight":0.0001,
+		"delay":10,
+		"shift": [0, 0, -2000],
+		"scale":1,
+		"rotate":0
+	    },	    
+	    "2":
+	    {
+		"pre":
+		{
+		    "region":"M1",
+		    "subregion":"L5A",
+		    "neuron_type":"CT"
+		},
+		"post":
+		{
+		    "region":"M1-Th",
+		    "subregion":"TRN",
+		    "neuron_type":"RE"
+		},
+		
+		"mu":0.5,
+		"sigma":100,
+		"weight":0.0001,
+		"delay":10,
+		"shift": [0, 0, -2000],
+		"scale":1,
+		"rotate":0
+	    },	    
+	    "3":
+	    {
+		"pre":
+		{
+		    "region":"M1",
+		    "subregion":"L6",
+		    "neuron_type":"CT"
+		},
+		"post":
+		{
+		    "region":"M1-Th",
+		    "subregion":"TN",
+		    "neuron_type":"LTC"
+		},
+		"mu":0.5,
+		"sigma":100,
+		"weight":0.0001,
+		"delay": 10,
+		"shift": [0, 0, -2000],
+		"scale": 1,
+		"rotate": 0
+	    },
+	    
+	    "4":
+	    {
+		"pre":
+		{
+		    "region":"M1",
+		    "subregion":"L6",
+		    "neuron_type":"CT"
+		},
+		"post":
+		{
+		    "region":"M1-Th",
+		    "subregion":"TN",
+		    "neuron_type":"HTC"
+		},
+		
+		"mu":0.5,
+		"sigma":100,
+		"weight":0.0001,
+		"delay":10,
+		"shift": [0, 0, -2000],
+		"scale":1,
+		"rotate":0
+	    },	    
+	    "5":
+	    {
+		"pre":
+		{
+		    "region":"M1",
+		    "subregion":"L6",
+		    "neuron_type":"CT"
+		},
+		"post":
+		{
+		    "region":"M1-Th",
+		    "subregion":"TRN",
+		    "neuron_type":"RE"
+		},
+		
+		"mu":0.5,
+		"sigma":100,
+		"weight":0.0001,
+		"delay":10,
+		"shift": [0, 0, -2000],
+		"scale":1,
+		"rotate":0
+	    }	    
+	}	    
+    }
+}

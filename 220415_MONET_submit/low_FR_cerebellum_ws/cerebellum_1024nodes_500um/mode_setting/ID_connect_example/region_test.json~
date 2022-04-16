@@ -1,0 +1,60 @@
+{
+    "structure_info":
+    {
+	"region_name":"test",
+	"region_z_extent":[ 0, 100 ],
+	"layer_thickness":[ 100 ],
+	"xy_length_per_tile": 100, 
+	"tile_link_limit": 50,
+	"n_neurons_factor":1
+    },
+    
+    "neuron_info":
+    {
+	"test":
+	[	
+	    {
+		"test_sr":
+		[
+		    {
+			"test_nt":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"I",
+			    "membrane_time_constant":10,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex": {"initial_setting_type":"gaussian", "mean":10, "sd": 5},
+			    "membrane_potential": {"initial_setting_type":"gaussian", "mean":-65, "sd":5 },
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2": 1259,
+			    "position_type":{"position_type_name":"random"}
+			}
+		    }
+		]
+	    }
+	]
+    },
+    "intra_regional_connection":
+    {
+	"connection_parameter_matrix":    
+	[
+	    [
+		{
+		    "pre": { "region":"test",  "subregion":"test_sr", "neuron_type":"test_nt" },
+		    "post": { "region":"test",  "subregion":"test_sr", "neuron_type":"test_nt" },
+		    "spatial_pattern": { "ID_connect": { "neuron_ID_file_name":"neuron_IDs.dat" } },
+		    "synaptic_channel": [{ "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0,  "weight_distribution": { "uniform_dist": {"uniform_value": 0.1}}}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ]
+	]
+    },
+    "inter_regional_connection":
+    [
+
+    ]
+}

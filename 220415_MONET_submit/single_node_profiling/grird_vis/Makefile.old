@@ -1,0 +1,8 @@
+CFLAGS = -I/usr/X11R6/include
+LDLIBS = -L/usr/X11R6/lib -lglut -lGLU -lGL -lXmu -lXi -lXext -lX11 -lm -lpthread -g
+
+3d_visualization.out: 3d_visualization.c 
+	$(CC) $(CFLAGS) 3d_visualization.c $(LDLIBS) -o 3d_visualization
+
+clean:
+	rm ./3d_visualization *~ 

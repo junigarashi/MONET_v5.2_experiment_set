@@ -1,0 +1,1 @@
+ffmpeg -i ./%0d.ppm -aspect 4:3 -f avi -vcodec mpeg4 -vb 5000k -r 30  test.avi

@@ -1,0 +1,3549 @@
+{
+    "structure_info":
+    {
+	"region_name":"S1",
+	"region_z_extent":[ 0, 1400 ],
+	"layer_thickness":[ 140, 304, 200, 471, 285 ]
+    },
+    
+    "neuron_info":
+    {
+	"S1":
+	[	
+	    {
+		"L1":
+		[
+		    {
+			"SBC":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"I",
+			    "membrane_time_constant":10,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2": 1259,
+			    "position_function_type":"grid_square"
+			}
+		    },
+		    {
+			"ENGC":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"I",
+			    "membrane_time_constant":10,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2": 540,
+			    "position_function_type":"grid_square"
+			}
+		    }
+		]
+	    },
+	    {	
+		"L2-3":
+		[
+		    {
+			"CC":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"E",
+			    "membrane_time_constant":20,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2":14659,
+			    "position_function_type":"grid_square"
+			}
+		    },
+		    {
+			"FS":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"I",
+			    "membrane_time_constant":10,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2":2290,
+			    "position_function_type":"grid_square"
+			}
+		    },
+		    {
+			"LTS":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"I",
+			    "membrane_time_constant":20,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2":1374,
+			    "position_function_type":"grid_square"
+			}
+		    }
+		]
+	    },
+	    {
+		"L5A":
+		[
+		    {
+			"CS":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"E",
+			    "membrane_time_constant":20,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2":1702,
+			    "position_function_type":"grid_square"
+			}
+		    },
+		    {
+			"CC":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"E",
+			    "membrane_time_constant":20,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2":1702,
+			    "position_function_type":"grid_square"
+			}
+		    },
+		    {
+			"CT":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"E",
+			    "membrane_time_constant":20,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2":1702,
+			    "position_function_type":"grid_square"
+			}
+		    },
+		    {
+			"FS":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"I",
+			    "membrane_time_constant":10,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2":774,
+			    "position_function_type":"grid_square"
+			}
+		    },
+		    {
+			"LTS":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"I",
+			    "membrane_time_constant":20,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2":516,
+			    "position_function_type":"grid_square"
+			}
+		    }
+		]
+	    },
+	    {
+		"L5B":
+		[
+		    {
+			"PT":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"E",
+			    "membrane_time_constant":20,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2":3036,
+			    "position_function_type":"grid_square"
+			}
+		    },
+		    {
+			"CS":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"E",
+			    "membrane_time_constant":20,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2":3036,
+			    "position_function_type":"grid_square"
+			}
+		    },
+		    {
+			"CC":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"E",
+			    "membrane_time_constant":20,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2":3036,
+			    "position_function_type":"grid_square"
+			}
+		    },
+		    {
+			"FS":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"I",
+			    "membrane_time_constant":10,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2":1822,
+			    "position_function_type":"grid_square"
+			}
+		    },
+		    {
+			"LTS":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"I",
+			    "membrane_time_constant":10,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2":1215,
+			    "position_function_type":"grid_square"
+			}
+		    }
+		]
+	    },
+	    {
+		"L6":
+		[
+		    {
+			"CT":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"E",
+			    "membrane_time_constant":20,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2":14102,
+			    "position_function_type":"grid_square"
+			}
+		    },
+		    {
+			"FS":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"I",
+			    "membrane_time_constant":10,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2":1763,
+			    "position_function_type":"grid_square"
+			}
+		    },
+		    {
+			"LTS":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"I",
+			    "membrane_time_constant":20,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":15,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2":1763,
+			    "position_function_type":"grid_square"
+			}
+		    }
+		]
+	    }
+	]
+    },
+	
+    "intra_regional_connection":
+    {
+	"connection_parameter_matrix":    
+	[
+	    [
+		{
+		    "connection_name": "L1 SBC to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC00", "sd": "SiiSBC"} } ,
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC00", "sd":"SiiENGC00" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pie01", "sd":"Seex1" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiSBCi0x", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiSBCiLTS01", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pie02", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pie02", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pie02", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiSBCi0x", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiSBCi0x", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pie03", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pie03", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pie03", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiSBCi0x", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiSBCi0x", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pie04", "sd":"Seex4" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiSBCi0x", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L1 SBC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiSBCi0x", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC00", "sd":"SiiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC00", "sd":"SiiENGC00" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pie01", "sd":"Seex1" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiENGCi0x", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiENGCiLTS01", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pie02", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pie02", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pie02", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiENGCi0x", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiENGCi0x", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pie03", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pie03", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pie03", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiENGCi0x", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiENGCi0x", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pie04", "sd":"Seex4" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiENGCi0x", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L1 ENGC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiENGCi0x", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC10", "sd":"SeiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC10", "sd":"SeiENGC10" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L2_3 CC",
+		    "spatial_pattern": {"two_dimensional_gaussian": { "mu":"Pee11", "sd":"Seex1" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei11", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei11", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee12", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee12", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee12", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei12", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei12", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee13", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee13", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee13", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei13", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei13", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee14", "sd":"Seex4" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei14", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L2_3 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei14", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC10", "sd":"SiiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC10", "sd":"SiiENGC10" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe11", "sd":"Seex1" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe11", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiLTS11", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe12", "sd":"SiFSe12" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe12", "sd":"SiFSe12" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe12", "sd":"SiFSe12" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiFS12", "sd":"Seix2"} },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiLTS12", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe13", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe13", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe13", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiFS13", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiLTS13", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe14", "sd":"SiFSe14" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiFS14", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L2_3 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiLTS14", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC10", "sd":"SiiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC10", "sd":"SiiENGC10" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe11", "sd":"SiLTSe11" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiFSxx", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiLTSxx", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe12", "sd":"SiLTSe12" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe12", "sd":"SiLTSe12" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe12", "sd":"SiLTSe12" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiFSxx", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiLTSxx", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe13", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe13", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe13", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiFSxx", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiLTSxx", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe14", "sd":"SiLTSe14" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiFSxx", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L2_3 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiLTSxx", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC20", "sd":"SeiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC20", "sd":"SeiENGC20" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		},
+		{
+		    "connection_name": "L2_3 CC to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee21", "sd":"Seex1" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei21", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei21", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee22", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee22", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee22", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei22", "sd":"Seix2"} },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei22", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee23", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee23", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee23", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei23", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei23", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee24", "sd":"Seix4" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei24", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L5A CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei24", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC20", "sd":"SeiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC20", "sd":"SeiENGC20" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee21", "sd":"Seex1" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei21", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei21", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee22", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee22", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee22", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei22", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei22", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee23", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee23", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee23", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei23", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei23", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee24", "sd":"Seix4" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei24", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L5A CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei24", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC20", "sd":"SeiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC20", "sd":"SeiENGC20" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee21", "sd":"Seex1" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei21", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei21", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee22", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee22", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee22", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei22", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei22", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee23", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee23", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee23", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei23", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei23", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee24", "sd":"Seix4" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei24", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L5A CT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei24", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC20", "sd":"SiiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC20", "sd":"SiiENGC20" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe21", "sd":"SiFSe21" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiFS21", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiLTS21", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe22", "sd":"SiFSe22" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe22", "sd":"SiFSe22" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe22", "sd":"SiFSe22" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiFS22", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiLTS22", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe23", "sd":"SiFSe23" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe23", "sd":"SiFSe23" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe23", "sd":"SiFSe23" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiFS23", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiLTS23", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe24", "sd":"SiFSe24" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiFS24", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L5A FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiLTS24", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC20", "sd":"SiiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC20", "sd":"SiiENGC20" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe21", "sd":"SiLTSe21" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiFSxx", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiLTSxx", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe22", "sd":"SiLTSe22" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe22", "sd":"SiLTSe22" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe22", "sd":"SiLTSe22" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiFSxx", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiLTSxx", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe23", "sd":"SiLTSe23" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe23", "sd":"SiLTSe23" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe23", "sd":"SiLTSe23" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiFSxx", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiLTSxx", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe24", "sd":"SiLTSe24" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiFSxx", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L5A LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiLTSxx", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC30", "sd":"SeiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC30", "sd":"SeiENGC30" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee31", "sd":"Seex1" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei31", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei31", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee32", "sd":"Seex2"} },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee32", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee32", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei32", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei32", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee33", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee33", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee33", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei33", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei33", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee34", "sd":"Seix4" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei34", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L5B PT",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei34", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC30", "sd":"SeiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC30", "sd":"SeiENGC30" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee31", "sd":"Seex1" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei31", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei31", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee32", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee32", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee32", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei32", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei32", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeITePT", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee33", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee33", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei33", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei33", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee34", "sd":"Seix4" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei34", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L5B CS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei34", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC30", "sd":"SeiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC30", "sd":"SeiENGC30" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee31", "sd":"Seex1" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei31", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei31", "sd": "Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee32", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee32", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee32", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei32", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei32", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee33", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee33", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee33", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei33", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei33", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee34", "sd":"Seix4" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei34", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L5B CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei34", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC30", "sd":"SiiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC30", "sd":"SiiENGC30" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe31", "sd":"SiFSe31" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiFS31", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiLTS31", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe32", "sd":"SiFSe32" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe32", "sd":"SiFSe32" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe32", "sd":"SiFSe32" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiFS32", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiLTS32", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe33", "sd":"SiFSe33" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe33", "sd":"SiFSe33" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe33", "sd":"SiFSe33" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiFS33", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiLTS33", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe34", "sd":"SiFSe34" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiFS34", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L5B FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiLTS34", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC30", "sd":"SiiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC30", "sd":"SiiENGC30" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe31", "sd":"SiLTSe31" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiFSxx", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiLTSxx", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe32", "sd":"SiLTSe32" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe32", "sd":"SiLTSe32" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe32", "sd":"SiLTSe32" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiFSxx", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiLTSxx", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe33", "sd":"SiLTSe33" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe33", "sd":"SiLTSe33" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe33", "sd":"SiLTSe33" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiFSxx", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiLTSxx", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe34", "sd":"SiLTSe34" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiFSxx", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L5B LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiLTSxx", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC40", "sd":"SeiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC40", "sd":"SeiENGC40" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee41", "sd":"Seex1" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei41", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei41", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee42", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee42", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee42", "sd":"Seex2" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei42", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei42", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee43", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee43", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee43", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei43", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei43", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pee44", "sd":"Seex4" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "lognormal": {"p0":2, "p1":1} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei44", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L6 CC",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"Pei44", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC40", "sd":"SiiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC40", "sd":"SiiENGC40" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe41", "sd":"Seex1" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiFS41", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiLTS41", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe42", "sd":"SiFSe42" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe42", "sd":"SiFSe42" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe42", "sd":"SiFSe42" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiFS42", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiLTS42", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe43", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe43", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe43", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiFS43", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiLTS43", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSe44", "sd":"SiFSe44" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiFS44", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L6 FS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiFSiLTS44", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ],
+	    [
+		{
+		    "connection_name": "L1 SBC to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiSBC40", "sd":"SiiSBC" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L1 ENGC to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PeiENGC40", "sd":"SiiENGC40" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 CC to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe41", "sd": "Seex1" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 FS to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiFSxx", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L2_3 LTS to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiLTSxx", "sd":"Seix1" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CS to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe42", "sd":"SiLTSe42" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CC to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe42", "sd":"SiLTSe42" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A CT to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe42", "sd":"SiLTSe42" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A FS to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiFSxx", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5A LTS to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiLTSxx", "sd":"Seix2" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B PT to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe43", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CS to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe43", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B CC to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe43", "sd":"Seex3" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B FS to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiFSxx", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L5B LTS to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiLTSxx", "sd":"Seix3" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 CC to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSe44", "sd":"SiLTSe44" } },
+		    "synaptic_channel": { "AMPA": { "dynamics": { "alpha":{ "tau":2 } }, "reversal_potential":0 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 FS to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiFSxx", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		},
+		{
+		    "connection_name": "L6 LTS to L6 LTS",
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":"PiLTSiLTSxx", "sd":"Seix4" } },
+		    "synaptic_channel": { "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70 } },
+		    "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} },
+		    "delay" : 1.5,
+		    "STP":{},
+		    "LTP":{}
+		}
+	    ]
+	],
+	"coefficients":
+	{
+	    "Fee": 0.125,
+	    "Fei": 1,
+	    "FiFSe1x": 1,
+	    "FiFSe2x": 1,
+	    "FiFSe3x": 1,
+	    "FiFSe4x": 1,
+	    "FiLTSe1x": 0.60784313725,
+	    "FiLTSe2x": 0.60784313725,
+	    "FiLTSe3x": 0.60784313725,
+	    "FiLTSe4x": 0.60784313725,
+	    "FiFSiFSxx": 1,
+	    "FiFSiLTSxx": 1,
+	    "FiLTSiFSxx": 1,
+	    "FiLTSiLTSxx": 1,
+	    
+	    "Pee11": 0.0931,
+	    "Pee12": 0.0746,
+	    "Pee13": 0.0207,
+	    "Pee14": 0.0033,
+	    "Pee21": 0.114,
+	    "Pee22": 0.1058,
+	    "Pee23": 0.0246,
+	    "Pee24": 0.0049, 
+	    "Pee31": 0.065,
+	    "Pee32": 0.0531,
+	    "Pee33": 0.125,
+	    "Pee34": 0.0374,
+	    "Pee41": 0.0029,
+	    "Pee42": 0.0055,
+	    "Pee43": 0.0205,
+	    "Pee44": 0.0550,
+	    
+	    "PeITePT": 0,
+	    "PeiSBC00": 0,
+	    "PeiSBC10": 0,
+	    "PeiSBC20": 0,
+	    "PeiSBC30": 0,
+	    "PeiSBC40": 0,
+
+	    "PiiSBC10": 0.694521632692,
+	    "PiiSBC20": 0,
+	    "PiiSBC30": 0,
+	    "PiiSBC40": 0,
+	    "PiSBCi0x": 0,
+	    "PiENGCi0x": 0,
+	    
+	    "PeiENGC00": 0,
+	    "PeiENGC10": 0.64947291,
+	    "PeiENGC20": 0.2574876,
+	    "PeiENGC30": 0.2574876,
+	    "PeiENGC40": 0,
+	    "PiiENGC10": 0.2568036,
+	    "PiiENGC20": 0,
+	    "PiiENGC30": 0,
+	    "PiiENGC40": 0,
+	    "Pie01": 0,
+	    "Pie02": 0,
+	    "Pie03": 0,
+	    "Pie04": 0,
+	    
+	    "Pei10": 0.0553816009629,
+	    "Pei11": 0.602984130998,
+	    "Pei12": 0.124183006536,
+	    "Pei13": 0.0915032679739,
+	    "Pei14": 0,
+	    "Pei20": 0.00126586516487,
+	    "Pei21": 0.0244346510601,
+	    "Pei22": 0.636601307193,
+	    "Pei23": 0.596078431373,
+	    "Pei24": 0.008898271007,
+	    "Pei30": 0,
+	    "Pei31": 0.0031528582013,
+	    "Pei32": 0.0522875816993,
+	    "Pei33": 1,
+	    "Pei34": 0.169956976234,
+	    "Pei40": 0,
+	    "Pei41": 0.00236464365097,
+	    "Pei42": 0,
+	    "Pei43": 0.0287581699346,
+	    "Pei44": 0.867581423182,
+	    "PiFSe11": 1,
+	    "PiFSe12": 0.801,
+	    "PiFSe13": 0.222,
+	    "PiFSe14": 0.035445757,
+	    
+	    "PiFSe21": 0.632014795996,
+	    "PiFSe22": 1,
+	    "PiFSe23": 0.470111504179,
+	    "PiFSe24": 0.0710308221417,
+	    
+	    "PiFSe31": 0.2764505774,
+	    "PiFSe32": 1,
+	    "PiFSe33": 0.790285463718,
+	    "PiFSe34": 0.169267347837,
+	    
+	    "PiFSe41": 0.0527,
+	    "PiFSe42": 0.1,
+	    "PiFSe43": 0.372,
+	    "PiFSe44": 1,
+	    
+	    "PiLTSe11": 0.60784313725,
+	    "PiLTSe12": 0,
+	    "PiLTSe13": 0,
+	    "PiLTSe14": 0,
+	    
+	    "PiLTSe21": 0.60784313725,
+	    "PiLTSe22": 0.357, 
+	    "PiLTSe23": 0.108,
+	    "PiLTSe24": 0.0381, 
+	    
+	    "PiLTSe31": 0.60784313725,
+	    "PiLTSe32": 0.269856017, 
+	    "PiLTSe33": 0.290,
+	    "PiLTSe34": 0.111, 
+	    
+	    "PiLTSe41": 0.0320,
+	    "PiLTSe42": 0.0608, 
+	    "PiLTSe43": 0.227,
+	    "PiLTSe44": 0.60784313725,
+	    
+	    "PiFSiFS11": 0.602984130998,
+	    "PiFSiFS12": 0.124183006536,
+	    "PiFSiFS13": 0.0915032679739,
+	    "PiFSiFS14": 0,
+	    "PiFSiFS21": 0.0244346510601,
+	    "PiFSiFS22": 0.636601307193,
+	    "PiFSiFS23": 0.596078431373,
+	    "PiFSiFS24": 0.008898271007,
+	    "PiFSiFS31": 0.0031528582013,
+	    "PiFSiFS32": 0.0522875816993,
+	    "PiFSiFS33": 1,
+	    "PiFSiFS34": 0.169956976234,
+	    "PiFSiFS41": 0.00236464365097,
+	    "PiFSiFS42": 0,
+	    "PiFSiFS43": 0.0287581699346,
+	    "PiFSiFS44": 0.867581423182,
+	    
+	    "PiFSiLTS11": 0.857,
+	    "PiFSiLTS12": 0,
+	    "PiFSiLTS13": 0,
+	    "PiFSiLTS14": 0,
+	    "PiFSiLTS21": 0,
+	    "PiFSiLTS22": 0.857,
+	    "PiFSiLTS23": 0,
+	    "PiFSiLTS24": 0,
+	    "PiFSiLTS31": 0,
+	    "PiFSiLTS32": 0,
+	    "PiFSiLTS33": 0.857,
+	    "PiFSiLTS34": 0,
+	    "PiFSiLTS41": 0,
+	    "PiFSiLTS42": 0,
+	    "PiFSiLTS43": 0,
+	    "PiFSiLTS44": 0.857,
+	    "PiLTSiFSxx": 0,
+	    "PiLTSiLTSxx": 0,
+	    "PiSBCiLTS01": 0.73889088,
+	    "PiSBCiLTS02": 0,
+	    "PiSBCiLTS03": 0,
+	    "PiSBCiLTS04": 0,
+	    "PiENGCiLTS01": 1,
+	    "PiENGCiLTS02": 0,
+	    "PiENGCiLTS03": 0,
+	    "PiENGCiLTS04": 0,
+	    
+	    "SeiSBC": 34.349899622,
+	    "SiiSBC": 34.349899622,
+	    "SeiENGC10": 213.490490572,
+	    "SeiENGC20": 184.821601654,
+	    "SeiENGC30": 184.821601654,
+	    "SeiENGC40": 0,
+	    "SiiENGC00": 238.794855759,
+	    "SiiENGC10": 238.794855759,
+	    "SiiENGC20": 238.794855759,
+	    "SiiENGC30": 238.794855759,
+	    "SiiENGC40": 238.794855759,
+	    "Seex1":  467.702817055,
+	    "Seex2":  548.013844352,
+	    "Seex3":  606.368829317,
+	    "Seex4":  585.132412528,
+	    "Seix1": 100,
+	    "Seix2": 131,
+	    "Seix3": 202,
+	    "Seix4": 162,
+	    "SiFSe11": 467.702817055,
+	    "SiFSe12": 548.013844352,
+	    "SiFSe13": 606.368829317,
+	    "SiFSe14": 585.132412528,
+	    "SiFSe21": 361,
+	    "SiFSe22": 344,
+	    "SiFSe23": 492,
+	    "SiFSe24": 839,
+	    "SiFSe31": 611,
+	    "SiFSe32": 240,
+	    "SiFSe33": 421,
+	    "SiFSe34": 647,
+	    "SiFSe41": 467.702817055,
+	    "SiFSe42": 548.013844352,
+	    "SiFSe43": 606.368829317,
+	    "SiFSe44": 585.132412528,
+	    "SiLTSe11": 467.702817055,
+	    "SiLTSe12": 548.013844352,
+	    "SiLTSe13": 606.368829317,
+	    "SiLTSe14": 585.132412528,
+	    "SiLTSe21": 471,
+	    "SiLTSe22": 394,
+	    "SiLTSe23": 734,
+	    "SiLTSe24": 1110,
+	    "SiLTSe31": 469,
+	    "SiLTSe32": 601,
+	    "SiLTSe33": 597,
+	    "SiLTSe34": 1091,
+	    "SiLTSe41": 467.702817055,
+	    "SiLTSe42": 548.013844352,
+	    "SiLTSe43": 606.368829317,
+	    "SiLTSe44": 585.132412528,
+
+	    "Wee": -0.72,
+	    "WiFSe": 0.82,
+	    "WiLTSe": 0.39,
+	    "WeiFS":  -1,
+	    "WeiLTS": -1,
+	    "WiFSiFS": -1.12,
+	    "WiFSiLTS": -0.74,
+	    "WiLTSiFS": 0,
+	    "WiLTSiLTS": 0,
+	    "WiSBCiLTS10": -0.8,
+	    "WiENGCiLTS10": -0.8,
+	    "WeiSBC": 0,
+	    "WiiSBC": -0.8,
+	    "WeiENGC": -1,
+	    "WiiENGC": -1
+	}
+    },
+    "inter_regional_connection":
+    {
+	"bundle0":
+	{
+	    "0":
+	    {
+		"connection_name": "",
+		"pre":{ "region":"M1", "subregion":"L2-3", "neuron_type":"CC" },
+		"post":	{ "region":"S1", "subregion":"L5A", "neuron_type":"CC" },
+		"topology":{ "shift": [2000, 0, 0], "scale": 1,  "rotate": 0 },
+		"spatial_pattern": {"two_dimensional_gaussian": { "mu":0.5, "sd":50 }},
+		"synaptic_channel": { "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0 } },
+		"weight_distribution": { "uniform_dist": {"uniform_value": 0.00001} },
+		"delay" : 1.5,
+		"STP":{},
+		"LTP":{}		    
+	    },
+	    "1":
+	    {
+		"connection_name": "",
+		"pre": { "region":"M1",  "subregion":"L2-3", "neuron_type":"CC" },
+		"post":	{ "region":"S1",  "subregion":"L2-3", "neuron_type":"FS" },
+		"topology":{ "shift": [2000, 0, 0], "scale": 1,  "rotate": 0 },
+		"spatial_pattern": {"two_dimensional_gaussian": { "mu":0.5, "sd":50 }},
+		"synaptic_channel": { "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0 } },
+		"weight_distribution": { "uniform_dist": {"uniform_value": 0.00001} },
+		"delay" : 1.5, 
+		"STP":{},
+		"LTP":{}		    
+ 	    },		
+	    
+            "2":
+	    {
+		"connection_name": "",
+		"pre": { "region":"M1", "subregion":"L2-3",  "neuron_type":"CC" },
+		"post": {"region":"S1",  "subregion":"L2-3", "neuron_type":"LTS" },
+		"topology":{ "shift": [2000, 0, 0], "scale": 1,  "rotate": 0 },
+		"spatial_pattern": {"two_dimensional_gaussian": { "mu":0.5, "sd":50 }},
+		"synaptic_channel": { "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0 } },
+		"weight_distribution": { "uniform_dist": {"uniform_value": 0.00001} },
+		"delay" : 1.5, 		
+		"STP":{},
+		"LTP":{}		    
+            }
+	}
+    }
+}

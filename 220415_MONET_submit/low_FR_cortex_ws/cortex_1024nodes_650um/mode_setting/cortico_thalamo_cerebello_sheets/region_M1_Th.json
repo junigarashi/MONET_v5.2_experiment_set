@@ -1,0 +1,275 @@
+{
+    "structure_info":
+    {
+	"region_name":"M1_Th",
+	"region_z_extent":[2000, 2400],
+	"layer_thickness":[300, 100],
+	"xy_length_per_tile":625,
+	"tile_link_limit": 1000,
+	"n_neurons_factor":1
+    },
+    
+    "neuron_info":
+    {
+	"M1_Th":	
+	[
+	    {
+		"TN":
+		[
+		    {
+			"HTC":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"E",
+			    "membrane_time_constant":20,
+			    "spike_threshold":-20,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex": {"initial_setting_type":"gaussian", "mean":-65, "sd":5 },
+			    "membrane_potential": {"initial_setting_type":"gaussian", "mean":-65, "sd":5 },
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2": 576,
+			    "position_type":{"position_type_name":"grid_square", "n_sheets":1, "n_neurons_on_a_side":15}
+			}
+		    },
+		    {
+			"LTC":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"E",
+			    "membrane_time_constant":20,
+			    "spike_threshold":-20,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":{"initial_setting_type":"gaussian", "mean":-65, "sd":5 },
+			    "membrane_potential": {"initial_setting_type":"gaussian", "mean":-65, "sd":5 },
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2": 576,
+			    "position_type":{"position_type_name":"grid_square", "n_sheets":1, "n_neurons_on_a_side":15}
+			}
+		    },
+		    {
+			"IN":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"I",
+			    "membrane_time_constant":10,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":{"initial_setting_type":"gaussian", "mean":-65, "sd":5 },
+			    "membrane_potential": {"initial_setting_type":"gaussian", "mean":-65, "sd":5 },
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2": 576,
+			    "position_type":{"position_type_name":"grid_square", "n_sheets":1, "n_neurons_on_a_side":15}
+			}
+		    }
+		]
+	    },
+	    {
+		"TRN":
+		[
+		    {
+			
+			"RE":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"I",
+			    "membrane_time_constant":10,
+			    "spike_threshold":-20,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":{"initial_setting_type":"gaussian", "mean":-65, "sd":5 },
+			    "membrane_potential": {"initial_setting_type":"gaussian", "mean":-65, "sd":5 },
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2": 576,
+			    "position_type":{"position_type_name":"grid_square", "n_sheets":1, "n_neurons_on_a_side":15}
+			}
+		    }
+		]
+	    }
+	]
+    },
+    
+    "intra_regional_connection":
+    {
+   	"connection_parameter_matrix":    
+	[
+	    [
+		{
+		    "pre":  { "region":"M1_Th", "subregion":"TN", "neuron_type":"HTC" },
+		    "post": { "region":"M1_Th", "subregion":"TN", "neuron_type":"HTC" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":0.0, "sd":200 } },
+		    "synaptic_channel": [{ "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0, "weight_distribution": { "uniform_dist": {"uniform_value": 0} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		},
+		{
+		    "pre":  { "region":"M1_Th", "subregion":"TN", "neuron_type":"LTC" },
+		    "post": { "region":"M1_Th", "subregion":"TN", "neuron_type":"HTC" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":0.0, "sd":200 } },
+		    "synaptic_channel": [{ "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0, "weight_distribution": { "uniform_dist": {"uniform_value": 0} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		},
+		{
+		    "pre":  { "region":"M1_Th", "subregion":"TN", "neuron_type":"IN" },
+		    "post": { "region":"M1_Th", "subregion":"TN", "neuron_type":"HTC" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":0.0, "sd":200 } },
+		    "synaptic_channel": [{ "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0, "weight_distribution": { "uniform_dist": {"uniform_value": 0} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		},
+		{
+		    "pre":  { "region":"M1_Th", "subregion":"TRN", "neuron_type":"RE" },
+		    "post": { "region":"M1_Th", "subregion":"TN", "neuron_type":"HTC" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":1, "sd":200 } },
+		    "synaptic_channel": [{ "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70, "weight_distribution": { "uniform_dist": {"uniform_value": 0.0001} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		}
+	    ],
+	    [
+		{
+		    "pre":  { "region":"M1_Th", "subregion":"TN", "neuron_type":"HTC" },
+		    "post": { "region":"M1_Th", "subregion":"TN", "neuron_type":"LTC" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":0.0, "sd":200 } },
+		    "synaptic_channel": [{ "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0, "weight_distribution": { "uniform_dist": {"uniform_value": 0} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		},
+		{
+		    "pre":  { "region":"M1_Th", "subregion":"TN", "neuron_type":"LTC" },
+		    "post": { "region":"M1_Th", "subregion":"TN", "neuron_type":"LTC" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":0.0, "sd":200 } },
+		    "synaptic_channel": [{ "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0, "weight_distribution": { "uniform_dist": {"uniform_value": 0} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		},
+		{
+		    "pre":  { "region":"M1_Th", "subregion":"TN", "neuron_type":"IN" },
+		    "post": { "region":"M1_Th", "subregion":"TN", "neuron_type":"LTC" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":1, "sd":200 } },
+		    "synaptic_channel": [{ "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70, "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		},
+		{
+		    "pre":  { "region":"M1_Th", "subregion":"TRN", "neuron_type":"RE" },
+		    "post": { "region":"M1_Th", "subregion":"TN", "neuron_type":"LTC" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":1, "sd":200 } },
+		    "synaptic_channel": [{ "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70, "weight_distribution": { "uniform_dist": {"uniform_value": 0.0001} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		}
+	    ],
+	    [
+		{
+		    "pre":  { "region":"M1_Th", "subregion":"TN", "neuron_type":"HTC" },
+		    "post": { "region":"M1_Th", "subregion":"TN", "neuron_type":"IN" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":1, "sd":200 } },
+		    "synaptic_channel": [{ "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0, "weight_distribution": { "uniform_dist": {"uniform_value": 0.02} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		},
+		{
+		    "pre":  { "region":"M1_Th", "subregion":"TN", "neuron_type":"LTC" },
+		    "post": { "region":"M1_Th", "subregion":"TN", "neuron_type":"IN" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":0, "sd":200 } },
+		    "synaptic_channel": [{ "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0, "weight_distribution": { "uniform_dist": {"uniform_value": 0} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		},
+		{
+		    "pre":  { "region":"M1_Th", "subregion":"TN", "neuron_type":"IN" },
+		    "post": { "region":"M1_Th", "subregion":"TN", "neuron_type":"IN" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":0, "sd":200 } },
+		    "synaptic_channel": [{ "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0, "weight_distribution": { "uniform_dist": {"uniform_value": 0} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		},
+		{
+		    "pre":  { "region":"M1_Th", "subregion":"TRN", "neuron_type":"RE" },
+		    "post": { "region":"M1_Th", "subregion":"TN", "neuron_type":"IN" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":0, "sd":200 } },
+		    "synaptic_channel": [{ "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0, "weight_distribution": { "uniform_dist": {"uniform_value": 0} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		}
+	    ],
+	    [
+		{
+		    "pre":  { "region":"M1_Th", "subregion":"TN", "neuron_type":"HTC" },
+		    "post": { "region":"M1_Th", "subregion":"TRN", "neuron_type":"RE" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":1, "sd":200 } },
+		    "synaptic_channel": [{ "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0, "weight_distribution": { "uniform_dist": {"uniform_value": 0.00001} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		},
+		{
+		    "pre":  { "region":"M1_Th", "subregion":"TN", "neuron_type":"LTC" },
+		    "post": { "region":"M1_Th", "subregion":"TRN", "neuron_type":"RE" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":1, "sd":200 } },
+		    "synaptic_channel": [{ "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0, "weight_distribution": { "uniform_dist": {"uniform_value": 0.00001} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		},
+		{
+		    "pre":  { "region":"M1_Th", "subregion":"TN", "neuron_type":"IN" },
+		    "post": { "region":"M1_Th", "subregion":"TRN", "neuron_type":"RE" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":0, "sd":200 } },
+		    "synaptic_channel": [{ "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0, "weight_distribution": { "uniform_dist": {"uniform_value": 0} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		},
+		{
+		    "pre":  { "region":"M1_Th", "subregion":"TRN", "neuron_type":"RE" },
+		    "post": { "region":"M1_Th", "subregion":"TRN", "neuron_type":"RE" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":1, "sd":200 } },
+		    "synaptic_channel": [{ "GABAA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":-70, "weight_distribution": { "uniform_dist": {"uniform_value": 0.00001} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		}
+	    ]
+	]
+    },
+    
+    "inter_regional_connection":
+    [
+	{
+	    "topology":{ "shift": [0, 0, 1500], "scale": 1,  "rotate": 0 },
+	    "pre":  { "region":"M1" },
+	    "post": { "region":"M1_Th" },
+	    "tile_link_limit":1000,
+	    "connection_type":
+	    [
+	    	{
+		    "pre":  { "region":"M1", "subregion":"L6", "neuron_type":"CT" },
+		    "post": { "region":"M1_Th", "subregion":"TN", "neuron_type":"HTC" },
+		    "topology":{ "shift": [0, 0, 1500], "scale": 1,  "rotate": 0 },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":1, "sd":200 } },
+		    "synaptic_channel": [{ "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0, "weight_distribution": { "uniform_dist": {"uniform_value": 0.001} }}}],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}
+		}
+	    ]
+	}
+    ]
+}

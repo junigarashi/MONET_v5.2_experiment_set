@@ -1,0 +1,80 @@
+{
+    "structure_info":
+    {
+	"region_name":"test1",
+	"region_z_extent":[0, 1000],
+	"layer_thickness":[1000],
+	"xy_length_per_tile":1000,
+	"estimated_n_connections_per_neuron":10000,
+	"tile_link_limit": 2000,
+	"n_neurons_factor":1
+    },
+    
+    "neuron_info":
+    {
+	"test1":	
+	[
+	    {
+		"sub1":
+		[
+		    {
+			"test_neuron_type":
+			{
+			    "neuron_model":"LIAF",
+			    "EorI":"E",
+			    "membrane_time_constant":20,
+			    "spike_threshold":-50,
+			    "reset_value":-70,
+			    "E_rest":-70,
+			    "I_ex":0,
+			    "absolute_refractory_period":1,
+			    "n_cells_per_mm2": 1,
+			    "position_function_type":"grid_square"
+			}
+		    }
+		]
+	    }
+	]
+    },
+    
+    "intra_regional_connection":
+    {
+	"coefficients": "No",
+   	"connection_parameter_matrix":    
+	[
+	    [
+		{
+		    "connection_name": "sub to sub",
+		    "pre":{ "region":"test1", "subregion":"sub1", "neuron_type":"test_neuron_type" },
+		    "post":{ "region":"test1", "subregion":"sub1", "neuron_type":"test_neuron_type" },
+		    "spatial_pattern": { "two_dimensional_gaussian": { "mu":1, "sd":500 } },
+		    "synaptic_channel": [{ "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0 , "weight_distribution": { "uniform_dist": {"uniform_value": 0.1} }}},
+					 { "NMDA": { "dynamics": { "alpha": { "tau":50 } }, "reversal_potential":0, "weight_distribution": { "uniform_dist": {"uniform_value": 0.004} } } }
+					],
+		    "delay" : 1.5, 
+		    "STP":{},
+		    "LTP":{}		    
+		}
+	    ]
+	]
+	
+    },
+    "inter_regional_connection":
+    [
+	[
+	    {
+		"pre": { "region":"test2", "subregion":"sub1", "neuron_type":"test_neuron_type" },
+		"post": { "region":"test1", "subregion":"sub1", "neuron_type":"test_neuron_type" },
+		"topology":{ "shift": [-10000, 0, 0], "scale": 1,  "rotate": 0 },
+		"spatial_pattern": { "two_dimensional_gaussian": { "mu":1, "sd":500 } },
+		"synaptic_channel": [{ "AMPA": { "dynamics": { "alpha": { "tau":2 } }, "reversal_potential":0, "weight_distribution": { "uniform_dist": {"uniform_value": 0.015} }}},
+				     { "NMDA": { "dynamics": { "alpha": { "tau":50 } }, "reversal_potential":0, "weight_distribution": { "uniform_dist": {"uniform_value": 0.004} } } }
+				    ],
+		"delay" : 1.5, 
+		"STP":{},
+		"LTP":{}		    
+	    }
+	]
+    ]
+}
+
