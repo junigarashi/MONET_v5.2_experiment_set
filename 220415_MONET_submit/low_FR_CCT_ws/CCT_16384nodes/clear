@@ -1,0 +1,12 @@
+#!/bin/bash
+
+rm *.dat
+rm *~
+rm run_monet_k*.sh.*
+rm core
+rm -r rep* pa*.csv
+rm *.err.* *.err
+rm *.out.* *.out
+rm *.stats.* *.stats
+rm -r ?
+rm -r output* results

@@ -1,0 +1,918 @@
+{
+    "selected_mode":"artificial_square",
+    
+    "artificial_square":
+    {
+	"mode":"artificial_square",
+	"simulation_time": 1000,
+	"dt": 0.1,
+	"x_points": 550,
+	"y_points": 550,
+	"n_x_regions": 1,
+	"n_y_regions": 1,
+	"n_OpenMP_threads": 12,
+	"region_names": ["M1"],
+	"memory_per_node[GB]": 8,
+	"network_configuration_visualization": false,
+	"use_DTI_data": false,
+	"PRNG_seed":1549371454,
+	"stimulation":
+	[
+	    {
+		"neuron_settings":
+		{
+		    "specificaton_type": "position_based, ID_based",
+		    "neuron_type":
+		    {
+			"region":"test_region",
+			"subregion":"test_subregion",
+			"neuron_type":"test_neuron_type"
+		    },
+		    "spatial_settings":
+		    {
+			"center_position":[650, 650, 50],
+			"radius":200,
+			"n_neurons": 1
+		    },
+		    "neuron_IDs":
+		    {
+			"process_ID":[],
+			"region_LID":[],
+			"subregion_LID":[],
+			"neuron_LID":[],
+			"neuron_GID":[]
+		    }
+		},
+		"temporal_settings":
+		{
+		    "temporal_pattern": "sinusoidal, poisson_spike, DC, pulses, ramp, ",
+		    "start":0,
+		    "end":1000,
+		    "amplitude":100
+		},
+		"recording":
+		{
+		    "n_recording_neurons":1
+		}
+	    },
+	    {
+		"neuron_settings":
+		{
+		    "specificaton_type": "position_based, ID_based",
+		    "neuron_type":
+		    {
+			"region":"test_region",
+			"subregion":"test_subregion",
+			"neuron_type":"test_neuron_type"
+		    },
+		    "spatial_settings":
+		    {
+			"center_position":[650, 650, 50],
+			"radius":200,
+			"n_neurons": 1
+		    },
+		    "neuron_IDs":
+		    {
+			"process_ID":[],
+			"region_LID":[],
+			"subregion_LID":[],
+			"neuron_LID":[],
+			"neuron_GID":[]
+		    }
+		},
+		"temporal_settings":
+		{
+		    "temporal_pattern": "sinusoidal, poisson_spike, DC, pulses, ramp, ",
+		    "start":0,
+		    "end":1000,
+		    "amplitude":100
+		},
+		"recording":
+		{
+		    "n_recording_neurons":1
+		}
+	    } 	    
+	],
+	"indegree_connections_per_post_synaptic_neuron":
+	[
+	],
+	"outdegree_connections_per_pre_synaptic_neuron":
+	[
+	],
+	"record_target_neuron_variables":
+	[
+	],	
+	"record_dummy": {"turn_on":true, "process_rank":1},
+	"record_calculate_time":{"switch":true, "process_rank":"master_zero"},
+	"record_build_time":{"switch":true, "process_rank":"master_zero"},
+	"record_spike_times_per_process":false,
+	"record_neuron_positions_per_process":false,
+	"record_spike_times_per_neuron_type":false,
+	"record_neuron_positions_per_neuron_type":false,
+	"record_neuron_state_varibles_per_neuron_type":false,
+	"record_synaptic_conductance_buffers_per_neuron_type":false,
+	"record_spike_info":false,
+	"record_intra_regional_connection_positions":false,
+	"record_intra_regional_connection_samples":false,
+	"record_inter_regional_connection_positions":false,
+	"record_inter_regional_connection_samples":false,
+	"record_settings":{"switch":true, "process_rank":"master_zero"},
+	"record_spike_time_communications":false,
+	"record_FR_subgrid_neuron_type_per_process":false,
+	"record_FR_subgrid_per_process":false,
+	"record_FR_process":false,
+    	"terminal_output":true,
+	"record_firing_rate":
+	{
+	    "all_time": true,
+	    "time_change_all": false,
+	    "time_change_region": false,
+	    "time_change_neuron_type": false,
+	    "time_change_region_per_tile": false,
+	    "time_change_neuron_type_per_tile": false,
+	    "time_change_region_per_subgrid_in_tile": false,
+	    "time_change_neuron_type_per_subgrid_in_tile": false,
+	    "time_bin": 5
+	},
+	"record_connection_weights":
+	[ 
+
+	],
+	"hardware_info":
+	{
+	    "CPU_name":"A64fx",
+	    "cache_block_manual_setting":true,
+	    "n_cache_blocks":2,
+	    "L1_size(KB)":64,
+	    "L2_size(MB)":32,
+	    "DRAM_size_per_process(GB)": 8,
+	    "GFLOPS_per_processor":1500,
+	    "memory_bandwidth_per_processor(GB/s)":1000
+	}
+    },
+    "minimum_artificial_square":
+    {
+	"mode":"minimum_artificial_square",
+	"simulation_time": 100,
+	"dt": 0.1,
+	"x_points": 2,
+	"y_points": 2,
+	"n_x_regions": 1,
+	"n_y_regions": 1,
+	"n_OpenMP_threads": 12,
+	"region_names": ["test_region"],
+	"memory_per_node[GB]": 8,
+	"network_configuration_visualization": false,
+	"use_DTI_data": false,
+	"PRNG_seed":"time",
+	"PRNG_seed":1549371454,
+	"stimulation":
+	[
+	    {
+		"neuron_settings":
+		{
+		    "specificaton_type": "position_based, ID_based",
+		    "neuron_type":
+		    {
+			"region":"test_region",
+			"subregion":"test_subregion",
+			"neuron_type":"test_neuron_type"
+		    },
+		    "spatial_settings":
+		    {
+			"center_position":[650, 650, 50],
+			"radius":200,
+			"n_neurons": 1
+		    },
+		    "neuron_IDs":
+		    {
+			"process_ID":[],
+			"region_LID":[],
+			"subregion_LID":[],
+			"neuron_LID":[],
+			"neuron_GID":[]
+		    }
+		},
+		"temporal_settings":
+		{
+		    "temporal_pattern": "sinusoidal, poisson_spike, DC, pulses, ramp, ",
+		    "start":0,
+		    "end":1000,
+		    "amplitude":100
+		},
+		"recording":
+		{
+		    "n_recording_neurons":1
+		}
+	    },
+	    {
+		"neuron_settings":
+		{
+		    "specificaton_type": "position_based, ID_based",
+		    "neuron_type":
+		    {
+			"region":"test_region",
+			"subregion":"test_subregion",
+			"neuron_type":"test_neuron_type"
+		    },
+		    "spatial_settings":
+		    {
+			"center_position":[650, 650, 50],
+			"radius":200,
+			"n_neurons": 1
+		    },
+		    "neuron_IDs":
+		    {
+			"process_ID":[],
+			"region_LID":[],
+			"subregion_LID":[],
+			"neuron_LID":[],
+			"neuron_GID":[]
+		    }
+		},
+		"temporal_settings":
+		{
+		    "temporal_pattern": "sinusoidal, poisson_spike, DC, pulses, ramp, ",
+		    "start":0,
+		    "end":1000,
+		    "amplitude":100
+		},
+		"recording":
+		{
+		    "n_recording_neurons":1
+		}
+	    } 	    
+	],
+	"indegree_connections_per_post_synaptic_neuron":
+	[
+	],
+	"outdegree_connections_per_pre_synaptic_neuron":
+	[
+	],
+	"record_target_neuron_variables":
+	[
+	],
+	"record_calculate_time":{"switch":true, "process_rank":"master_zero"},
+	"record_build_time":{"switch":true, "process_rank":"master_zero"},
+	"record_spike_times_per_process":true,
+	"record_neuron_positions_per_process":false,
+	"record_spike_times_per_neuron_type":false,
+	"record_neuron_positions_per_neuron_type":false,
+	"record_neuron_state_varibles_per_neuron_type":false,
+	"record_synaptic_conductance_buffers_per_neuron_type":false,
+	"record_spike_info":false,
+	"record_intra_regional_connection_positions":false,
+	"record_intra_regional_connection_samples":false,
+	"record_inter_regional_connection_positions":false,
+	"record_inter_regional_connection_samples":false,
+	"record_settings":true,
+	"record_spike_time_communications":false,
+	"record_FR_subgrid_neuron_type_per_process":true,
+	"record_FR_subgrid_per_process":true,
+	"record_FR_process":true,
+	"terminal_output":true,
+	"record_firing_rate":
+	{
+	    "all_time": true,
+	    "time_change_all": false,
+	    "time_change_region": false,
+	    "time_change_neuron_type": false,
+	    "time_change_region_per_tile": false,
+	    "time_change_neuron_type_per_tile": false,
+	    "time_change_region_per_subgrid_in_tile": false,
+	    "time_change_neuron_type_per_subgrid_in_tile": false,
+	    "time_bin": 5
+	},
+	"record_connection_weights":
+	[
+
+	],
+	"hardware_info":
+	{
+	    "CPU_name":"A64fx",
+	    "cache_block_manual_setting":true,
+	    "n_cache_blocks":1,
+	    "L1_size(KB)":64,
+	    "L2_size(MB)":32,
+	    "DRAM_size_per_process(GB)": 8,
+	    "GFLOPS_per_processor":1500,
+	    "memory_bandwidth_per_processor(GB/s)":1000
+	}
+    },
+    "human_cortical_sheet":
+    {
+	"mode":"human_cortical_sheet",
+ 	"simulation_time": 1000,
+	"dt": 0.1,
+	"n_process":16,
+	"n_regions": 1,
+	"region_names": [ "M1" ],
+	"memory_per_node[GB]": 64,
+	"network_configuration_visualization": false,
+	"indegree_connections_per_post_synaptic_neuron":[{"region":"M1", "subregion":"L2_3", "neuron_type":"CC", "n_neurons":3 }],
+	"record_calculation_times":true
+    },
+    
+    "corticothalamic_circuit_for_cerebellum":
+    {
+	"mode":"corticothalamic_circuit_for_cerebellum",
+	"simulation_time": 2000,
+	"dt": 0.01,
+	"n_process": 2,
+	"n_regions": 2,
+	"region_names": [ "M1", "M1-Th" ],
+	"memory_per_node[GB]": 64,
+	"network_configuration_visualization": false,
+	"indegree_connections_per_post_synaptic_neuron":[{"region":"M1", "subregion":"L2_3", "neuron_type":"CC", "n_neurons":3 }],
+	"record_calculation_times":true
+    },
+    "cerebellum":
+    {
+	"mode":"cerebellum",
+	"simulation_time": 1000,
+	"dt": 0.1,
+	"x_points": 2,
+	"y_points": 2,
+	"n_x_regions": 1,
+	"n_y_regions": 1,
+	"n_OpenMP_threads": 12,
+	"region_names": ["cerebellum"],
+	"memory_per_node[GB]": 8,
+	"network_configuration_visualization": false,
+	"use_DTI_data": false,
+	"PRNG_seed":1549371454,
+	"indegree_connections_per_post_synaptic_neuron":
+	[
+	],
+	"outdegree_connections_per_pre_synaptic_neuron":
+	[
+	],
+	"record_target_neuron_variables":
+	[
+	],
+	"record_connection_weights":
+	[
+	],
+	"record_dummy": {"turn_on":true, "rank_node":1},
+	"record_calculate_time":{"switch":true, "process_rank":"master_zero"},
+	"record_build_time":{"switch":true, "process_rank":"master_zero"},
+	"record_spike_times_per_process":true,
+	"record_neuron_positions_per_process":false,
+	"record_spike_times_per_neuron_type":false,
+	"record_neuron_positions_per_neuron_type":false,
+	"record_neuron_state_varibles_per_neuron_type":false,
+	"record_synaptic_conductance_buffers_per_neuron_type":false,
+	"record_spike_info":false,
+	"record_intra_regional_connection_positions":false,
+	"record_intra_regional_connection_samples":false,
+	"record_inter_regional_connection_positions":false,
+	"record_inter_regional_connection_samples":false,
+	"record_settings":{"switch":true, "process_rank":"master_zero"},
+	"record_spike_time_communications":false,
+	"record_FR_subgrid_neuron_type_per_process":false,
+	"record_FR_subgrid_per_process":false,
+	"record_FR_process":false,
+	"terminal_output":true,
+	"record_firing_rate":
+	{
+	    "all_time": true,
+	    "time_change_all": false,
+	    "time_change_region": false,
+	    "time_change_neuron_type": false,
+	    "time_change_region_per_tile": false,
+	    "time_change_neuron_type_per_tile": false,
+	    "time_change_region_per_subgrid_in_tile": false,
+	    "time_change_neuron_type_per_subgrid_in_tile": false,
+	    "time_bin": 5
+	},
+	"record_connection_weights":
+	[
+
+	],
+	"hardware_info":
+	{
+	    "CPU_name":"A64fx",
+	    "cache_block_manual_setting":true,
+	    "n_cache_blocks":10,
+	    "L1_size(KB)":64,
+	    "L2_size(MB)":32,
+	    "DRAM_size_per_process(GB)": 8,
+	    "GFLOPS_per_processor":6000,
+	    "memory_bandwidth_per_processor(GB/s)":1000
+	}	
+    },
+    "minimum_test":
+    {
+	"mode":"minimum_test",
+	"simulation_time": 500,
+	"dt": 0.1,
+	"n_process":2,
+	"n_regions": 2,
+	"region_names": [ "test1", "test2" ],
+	"memory_per_node[GB]": 8,
+	"network_configuration_visualization": false,
+	"PRNG_seed":1549371454,
+	"indegree_connections_per_post_synaptic_neuron":
+	[
+	    {"region":"test1", "subregion":"sub1", "neuron_type":"test_neuron_type", "n_recording_neurons":1, "center_position":[0, 0, 0], "radius":500},
+	    {"region":"test2", "subregion":"sub1", "neuron_type":"test_neuron_type", "n_recording_neurons":1, "center_position":[10000, 0, 0], "radius":500}
+	],
+	"record_target_neuron_variables":
+	[
+	    {"region":"test1", "subregion":"sub1", "neuron_type":"test_neuron_type", "n_recording_neurons":1, "center_position":[0, 0, 0], "radius":500},
+	    {"region":"test2", "subregion":"sub1", "neuron_type":"test_neuron_type", "n_recording_neurons":1, "center_position":[10000, 0, 0], "radius":500}
+	],
+	"record_dummy": {"turn_on":true, "rank_node":1},
+	"record_calculate_time":{"switch":true, "process_rank":"master_zero"},
+	"record_build_time":{"switch":true, "process_rank":"master_zero"},
+	"record_spike_times_per_process":false,
+	"record_neuron_positions_per_process":false,
+	"record_spike_times_per_neuron_type":false,
+	"record_neuron_positions_per_neuron_type":false,
+	"record_neuron_state_varibles_per_neuron_type":false,
+	"record_synaptic_conductance_buffers_per_neuron_type":false,
+	"record_spike_info":false,
+	"record_intra_regional_connection_positions":false,
+	"record_intra_regional_connection_samples":false,
+	"record_inter_regional_connection_positions":false,
+	"record_inter_regional_connection_samples":false,
+	"record_settings":false,
+	"record_spike_time_communications":false,
+	"record_FR_subgrid_neuron_type_per_process":true,
+	"terminal_output":true,
+	"record_firing_rate":
+	{
+	    "all_time": true,
+	    "time_change_all": false,
+	    "time_change_region": false,
+	    "time_change_neuron_type": false,
+	    "time_change_region_per_tile": false,
+	    "time_change_neuron_type_per_tile": false,
+	    "time_change_region_per_subgrid_in_tile": false,
+	    "time_change_neuron_type_per_subgrid_in_tile": false,
+	    "time_bin": 5
+	},
+	"record_connection_weights":
+	[
+
+	],
+	"hardware_info":
+	{
+	    "CPU_name":"A64fx",
+	    "cache_block_manual_setting":true,
+	    "n_cache_blocks":1,
+	    "L1_size(KB)":64,
+	    "L2_size(MB)":32,
+	    "DRAM_size_per_process(GB)": 8,
+	    "GFLOPS_per_processor":1500,
+	    "memory_bandwidth_per_processor(GB/s)":1000
+	}
+
+    },
+    "example_HTC":
+    {
+	"mode":"example_HTC",
+	"simulation_time": 3000,
+	"dt": 0.05,
+	"n_process":2,
+	"n_regions": 2,
+	"region_names": [ "test1", "test2" ],
+	"memory_per_node[GB]": 64,
+	"network_configuration_visualization": false,
+	"indegree_connections_per_post_synaptic_neuron":
+	[
+	    {"region":"test1", "subregion":"sub1", "neuron_type":"test_neuron_type", "n_recording_neurons":1, "center_position":[0, 0, 0], "radius":500},
+	    {"region":"test2", "subregion":"sub1", "neuron_type":"test_neuron_type", "n_recording_neurons":1, "center_position":[10000, 0, 0], "radius":500}
+	],
+	"record_target_neuron_variables":
+	[
+	    {"region":"test1", "subregion":"sub1", "neuron_type":"test_neuron_type", "n_recording_neurons":1, "center_position":[0, 0, 0], "radius":500},
+	    {"region":"test2", "subregion":"sub1", "neuron_type":"test_neuron_type", "n_recording_neurons":1, "center_position":[10000, 0, 0], "radius":500}
+	],
+	"record_calculation_times":true
+    },
+    "example_minimum_thalamic_neuron":
+    {
+	"mode":"example_minimum_thalamic_neuron",
+	"simulation_time": 1000,
+	"dt": 0.05,
+	"x_points": 1,
+	"y_points": 1,
+	"n_x_regions": 1,
+	"n_y_regions": 1,
+	"region_names": [ "test1"],
+	"memory_per_node[GB]": 64,
+	"network_configuration_visualization": false,
+	"indegree_connections_per_post_synaptic_neuron":
+	[
+	    {"region":"test1", "subregion":"sub1", "neuron_type":"test_neuron_type1", "n_recording_neurons":1, "center_position":[0, 0, 0], "radius":500},
+	    {"region":"test1", "subregion":"sub1", "neuron_type":"test_neuron_type2", "n_recording_neurons":1, "center_position":[0, 0, 0], "radius":500}
+	],
+	"record_target_neuron_variables":
+	[
+	    {"region":"test1", "subregion":"sub1", "neuron_type":"test_neuron_type1", "n_recording_neurons":1, "center_position":[0, 0, 0], "radius":500},
+	    {"region":"test1", "subregion":"sub1", "neuron_type":"test_neuron_type2", "n_recording_neurons":1, "center_position":[0, 0, 0], "radius":500}
+	],
+	"record_calculation_times":true
+    },
+    "example_colocalization_channels":
+    {
+	"mode":"example_colocalization_channels",
+	"simulation_time": 500,
+	"dt": 0.1,
+	"n_process":2,
+	"n_regions": 2,
+	"region_names": [ "test1", "test2" ],
+	"memory_per_node[GB]": 64,
+	"network_configuration_visualization": false,
+	"indegree_connections_per_post_synaptic_neuron":
+	[
+	    {"region":"test1", "subregion":"sub1", "neuron_type":"test_neuron_type", "n_recording_neurons":1, "center_position":[0, 0, 0], "radius":500},
+	    {"region":"test2", "subregion":"sub1", "neuron_type":"test_neuron_type", "n_recording_neurons":1, "center_position":[10000, 0, 0], "radius":500}
+	],
+	"record_target_neuron_variables":
+	[
+	    {"region":"test1", "subregion":"sub1", "neuron_type":"test_neuron_type", "n_recording_neurons":1, "center_position":[0, 0, 0], "radius":500},
+	    {"region":"test2", "subregion":"sub1", "neuron_type":"test_neuron_type", "n_recording_neurons":1, "center_position":[10000, 0, 0], "radius":500}
+	],
+	"record_calculation_times":true
+    },
+    "example_STDP":
+    {
+	"mode":"example_STDP",
+	"simulation_time": 500,
+	"dt": 0.1,
+	"n_process":2,
+	"n_regions": 2,
+	"region_names": [ "test1", "test2" ],
+	"memory_per_node[GB]": 64,
+	"network_configuration_visualization": false,
+	"indegree_connections_per_post_synaptic_neuron":
+	[
+	    {"region":"test1", "subregion":"sub1", "neuron_type":"test_neuron_type", "n_recording_neurons":1, "center_position":[0, 0, 0], "radius":500},
+	    {"region":"test2", "subregion":"sub1", "neuron_type":"test_neuron_type", "n_recording_neurons":1, "center_position":[10000, 0, 0], "radius":500}
+	],
+	"record_target_neuron_variables":
+	[
+	    {"region":"test1", "subregion":"sub1", "neuron_type":"test_neuron_type", "n_recording_neurons":1, "center_position":[0, 0, 0], "radius":500},
+	    {"region":"test2", "subregion":"sub1", "neuron_type":"test_neuron_type", "n_recording_neurons":1, "center_position":[10000, 0, 0], "radius":500}
+	],
+	"record_calculation_times":true
+    },
+    "cortico_thalamo_cerebello_sheets":
+    {
+	"mode":"cortico_thalamo_cerebello_sheets",
+	"simulation_time": 2000,
+	"dt": 0.1,
+	"n_OpenMP_threads": 12,
+	"memory_per_node[GB]": 8,
+	"network_configuration_visualization": false,
+	"use_DTI_data": false,
+	"PRNG_seed":1549371454,
+	"stimulation": [],
+	"meta_region_names":["cortex", "cerebellum"],
+	"cortex":
+	{
+	    "region_names": ["M1"],
+	    "x_points": 2,
+	    "y_points": 2,
+	    "n_x_regions": 1,
+	    "n_y_regions": 1
+	},
+	"cerebellum":
+	{
+	    "region_names": ["cerebellum"],
+	    "x_points": 2,
+	    "y_points": 2,
+	    "n_x_regions": 1,
+	    "n_y_regions": 1
+	},
+	"indegree_connections_per_post_synaptic_neuron":
+	[
+	],
+	"outdegree_connections_per_pre_synaptic_neuron":
+	[
+	],
+	"record_target_neuron_variables":
+        [
+	    {"region":"M1", "subregion":"L5B", "neuron_type":"PT", "n_recording_neurons":1, "center_position":[600, 600, 1000], "radius":500},	    
+	    {"region":"cerebellum", "subregion":"granular_layer", "neuron_type":"GR", "n_recording_neurons":1, "center_position":[500, 500, 3300], "radius":200},	    
+	    {"region":"cerebellum", "subregion":"Pons", "neuron_type":"MF", "n_recording_neurons":1, "center_position":[500, 500, 3700], "radius":500}	    
+	],
+	"record_dummy": {"turn_on":true, "rank_node":1},
+	"record_calculate_time":{"switch":true, "process_rank":"master_zero"},
+	"record_build_time":{"switch":true, "process_rank":"master_zero"},
+	"record_spike_times_per_process":true,
+	"record_neuron_positions_per_process":false,
+	"record_spike_times_per_neuron_type":true,
+	"record_neuron_positions_per_neuron_type":true,
+	"record_neuron_state_varibles_per_neuron_type":false,
+	"record_synaptic_conductance_buffers_per_neuron_type":false,
+	"record_spike_info":false,
+	"record_intra_regional_connection_positions":false,
+	"record_intra_regional_connection_samples":false,
+	"record_inter_regional_connection_positions":false,
+	"record_inter_regional_connection_samples":false,
+	"record_settings":{"switch":true, "process_rank":"master_zero"},
+	"record_spike_time_communications":false,
+	"record_FR_subgrid_neuron_type_per_process":true,
+	"terminal_output":true,
+	"record_firing_rate":
+	{
+	    "all_time": true,
+	    "time_change_all": false,
+	    "time_change_region": false,
+	    "time_change_neuron_type": false,
+	    "time_change_region_per_tile": false,
+	    "time_change_neuron_type_per_tile": false,
+	    "time_change_region_per_subgrid_in_tile": false,
+	    "time_change_neuron_type_per_subgrid_in_tile": false,
+	    "time_bin": 5
+	},
+	"record_connection_weights":
+	[
+	],
+	"hardware_info":
+	{
+	    "CPU_name":"A64fx",
+	    "cache_block_manual_setting":true,
+	    "n_cache_blocks":1,
+	    "L1_size(KB)":64,
+	    "L2_size(MB)":32,
+	    "DRAM_size_per_process(GB)": 8,
+	    "GFLOPS_per_processor":1500,
+	    "memory_bandwidth_per_processor(GB/s)":1000
+	}
+    },
+
+    "DTI_test":
+    {
+	"mode":"DTI_test",
+	"simulation_time": 10,
+	"dt": 0.1,
+	"x_points": 2,
+	"y_points": 1,
+	"n_x_regions": 2,
+	"n_y_regions": 1,
+	"region_names": ["M1", "S1"],
+	"memory_per_node[GB]": 14,
+	"network_configuration_visualization": false,
+	"use_DTI_data": false,
+	"indegree_connections_per_post_synaptic_neuron":
+	[
+	],
+	"record_target_neuron_variables":
+	[
+	],
+	"record_calculate_time":{"switch":true, "process_rank":"master_zero"},
+	"record_build_time":{"switch":true, "process_rank":"master_zero"},
+	"record_spike_times_per_process":false,
+	"record_neuron_positions_per_process":true,
+	"record_spike_times_per_neuron_type":false,
+	"record_neuron_positions_per_neuron_type":false,
+	"record_neuron_state_varibles_per_neuron_type":false,
+	"record_synaptic_conductance_buffers_per_neuron_type":false,
+	"record_spike_info":false,
+	"record_intra_regional_connection_positions":false,
+	"record_intra_regional_connection_samples":false,
+	"record_inter_regional_connection_positions":true,
+	"record_inter_regional_connection_samples":false,
+	"record_settings":true,
+	"record_spike_time_communications":false
+    },
+
+    "cluster_test":
+    {
+	"mode":"cluster_test",
+	"simulation_time": 10,
+	"dt": 0.1,
+	"x_points": 2,
+	"y_points": 1,
+	"n_x_regions": 2,
+	"n_y_regions": 1,
+	"region_names": ["M1", "S1"],
+	"memory_per_node[GB]": 14,
+	"network_configuration_visualization": false,
+	"use_DTI_data": false,
+	"indegree_connections_per_post_synaptic_neuron":
+	[
+	],
+	"record_target_neuron_variables":
+	[
+	],
+	"record_calculate_time":{"switch":true, "process_rank":"master_zero"},
+	"record_build_time":{"switch":true, "process_rank":"master_zero"},
+	"record_spike_times_per_process":false,
+	"record_neuron_positions_per_process":true,
+	"record_spike_times_per_neuron_type":false,
+	"record_neuron_positions_per_neuron_type":false,
+	"record_neuron_state_varibles_per_neuron_type":false,
+	"record_synaptic_conductance_buffers_per_neuron_type":false,
+	"record_spike_info":false,
+	"record_intra_regional_connection_positions":false,
+	"record_intra_regional_connection_samples":false,
+	"record_inter_regional_connection_positions":true,
+	"record_inter_regional_connection_samples":false,
+	"record_settings":true,
+	"record_spike_time_communications":false
+    },
+    "PFCFP_test":
+    {
+	"mode":"PFCFP_test",
+	"simulation_time": 100,
+	"dt": 0.1,
+	"x_points": 1,
+	"y_points": 1,
+	"n_x_regions": 1,
+	"n_y_regions": 1,
+	"region_names": ["cerebellum"],
+	"memory_per_node[GB]": 14,
+	"network_configuration_visualization": false,
+	"use_DTI_data": false,
+	"indegree_connections_per_post_synaptic_neuron":
+	[
+	    {"region":"cerebellum", "subregion":"granular_layer", "neuron_type":"GR", "n_recording_neurons":1, "center_position":[500, 500, 3300], "radius":200},
+	    {"region":"cerebellum", "subregion":"granular_layer", "neuron_type":"GO", "n_recording_neurons":1, "center_position":[500, 500, 3300], "radius":200},
+	    {"region":"cerebellum", "subregion":"PurkinjeCell_layer", "neuron_type":"PC", "n_recording_neurons":1, "center_position":[500, 500, 3300], "radius":200}
+	],
+	"outdegree_connections_per_pre_synaptic_neuron":
+	[
+	    {"region":"cerebellum", "subregion":"granular_layer", "neuron_type":"GR", "n_recording_neurons":1, "center_position":[500, 500, 3300], "radius":200},	    
+	    {"region":"cerebellum", "subregion":"granular_layer", "neuron_type":"GO", "n_recording_neurons":1, "center_position":[500, 500, 3300], "radius":200},	    
+	    {"region":"cerebellum", "subregion":"PurkinjeCell_layer", "neuron_type":"PC", "n_recording_neurons":1, "center_position":[500, 500, 3300], "radius":200}
+	],
+	"record_target_neuron_variables":
+	[
+	],
+	"record_connection_weight":
+	[
+	    {
+		"pre": { "region":"cerebellum", "subregion":"PurkinjeCell_layer", "neuron_type":"PC" },
+		"post": {"region":"cerebellum", "subregion":"granular_layer", "neuron_type":"GO" },
+		"conf":{"n_recording_neurons":1, "n_connections":1, "center_position":[500, 500, 3500], "radius":200 }
+	    }
+	],
+	"record_calculate_time":{"switch":true, "process_rank":"master_zero"},
+	"record_build_time":{"switch":true, "process_rank":"master_zero"},
+	"record_spike_times_per_process":true,
+	"record_neuron_positions_per_process":true,
+	"record_spike_times_per_neuron_type":true,
+	"record_neuron_positions_per_neuron_type":true,
+	"record_neuron_state_varibles_per_neuron_type":false,
+	"record_synaptic_conductance_buffers_per_neuron_type":false,
+	"record_spike_info":false,
+	"record_intra_regional_connection_positions":false,
+	"record_intra_regional_connection_samples":false,
+	"record_inter_regional_connection_positions":false,
+	"record_inter_regional_connection_samples":false,
+	"record_settings":true,
+	"record_spike_time_communications":false
+    },
+    "ID_connect_example":
+    {
+	"mode":"ID_connect_example",
+	"simulation_time": 10000,
+	"dt": 0.1,
+	"x_points": 1,
+	"y_points": 1,
+	"n_x_regions": 1,
+	"n_y_regions": 1,
+	"n_OpenMP_threads": 12,
+	"region_names": ["test"],
+	"memory_per_node[GB]": 8,
+	"network_configuration_visualization": false,
+	"use_DTI_data": false,
+	"PRNG_seed":1549371454,
+	"stimulation":
+	[
+	    {
+		"neuron_settings":
+		{
+		    "specificaton_type": "position_based, ID_based",
+		    "neuron_type":
+		    {
+			"region":"test_region",
+			"subregion":"test_subregion",
+			"neuron_type":"test_neuron_type"
+		    },
+		    "spatial_settings":
+		    {
+			"center_position":[650, 650, 50],
+			"radius":200,
+			"n_neurons": 1
+		    },
+		    "neuron_IDs":
+		    {
+			"process_ID":[],
+			"region_LID":[],
+			"subregion_LID":[],
+			"neuron_LID":[],
+			"neuron_GID":[]
+		    }
+		},
+		"temporal_settings":
+		{
+		    "temporal_pattern": "sinusoidal, poisson_spike, DC, pulses, ramp, ",
+		    "start":0,
+		    "end":1000,
+		    "amplitude":100
+		},
+		"recording":
+		{
+		    "n_recording_neurons":1
+		}
+	    },
+	    {
+		"neuron_settings":
+		{
+		    "specificaton_type": "position_based, ID_based",
+		    "neuron_type":
+		    {
+			"region":"test_region",
+			"subregion":"test_subregion",
+			"neuron_type":"test_neuron_type"
+		    },
+		    "spatial_settings":
+		    {
+			"center_position":[650, 650, 50],
+			"radius":200,
+			"n_neurons": 1
+		    },
+		    "neuron_IDs":
+		    {
+			"process_ID":[],
+			"region_LID":[],
+			"subregion_LID":[],
+			"neuron_LID":[],
+			"neuron_GID":[]
+		    }
+		},
+		"temporal_settings":
+		{
+		    "temporal_pattern": "sinusoidal, poisson_spike, DC, pulses, ramp, ",
+		    "start":0,
+		    "end":1000,
+		    "amplitude":100
+		},
+		"recording":
+		{
+		    "n_recording_neurons":1
+		}
+	    } 	    
+	],
+	"indegree_connections_per_post_synaptic_neuron":
+	[
+	],
+	"outdegree_connections_per_pre_synaptic_neuron":
+	[
+	],
+	"record_target_neuron_variables":
+	[
+	    {"region":"test", "subregion":"test_sr", "neuron_type":"test_nt1", "n_recording_neurons":1, "center_position":[0, 0, 0], "radius":1000}
+	],	
+	"record_dummy": {"turn_on":true, "process_rank":1},
+	"record_calculate_time":{"switch":true, "process_rank":"master_zero"},
+	"record_build_time":{"switch":true, "process_rank":"master_zero"},
+	"record_spike_times_per_process":true,
+	"record_neuron_positions_per_process":false,
+	"record_spike_times_per_neuron_type":false,
+	"record_neuron_positions_per_neuron_type":false,
+	"record_neuron_state_varibles_per_neuron_type":false,
+	"record_synaptic_conductance_buffers_per_neuron_type":false,
+	"record_spike_info":false,
+	"record_intra_regional_connection_positions":false,
+	"record_intra_regional_connection_samples":false,
+	"record_inter_regional_connection_positions":false,
+	"record_inter_regional_connection_samples":false,
+	"record_settings":false,
+	"record_spike_time_communications":false,
+	"record_FR_subgrid_neuron_type_per_process":true,
+	"terminal_output":true,
+	"record_firing_rate":
+	{
+	    "all_time": true,
+	    "time_change_all": false,
+	    "time_change_region": false,
+	    "time_change_neuron_type": false,
+	    "time_change_region_per_tile": false,
+	    "time_change_neuron_type_per_tile": false,
+	    "time_change_region_per_subgrid_in_tile": false,
+	    "time_cha nge_neuron_type_per_subgrid_in_tile": false,
+	    "time_bin": 5
+	},
+	"record_connection_weights":
+	[ 
+	],
+	"hardware_info":
+	{
+	    "CPU_name":"A64fx",
+	    "cache_block_manual_setting":true,
+	    "n_cache_blocks":1,
+	    "L1_size(KB)":64,
+	    "L2_size(MB)":32,
+	    "DRAM_size_per_process(GB)": 8,
+	    "GFLOPS_per_processor":1500,
+	    "memory_bandwidth_per_processor(GB/s)":1000
+	}
+    }
+}
